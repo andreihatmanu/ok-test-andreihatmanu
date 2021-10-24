@@ -1,0 +1,1 @@
+export {SuccessfulComponent as Successful} from './successful.component'

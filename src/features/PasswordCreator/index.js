@@ -1,0 +1,1 @@
+export { PasswordCreatorComponent as PasswordCreator} from './password-creator.somponent'

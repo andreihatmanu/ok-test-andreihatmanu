@@ -1,0 +1,1 @@
+export { ProductInformationComponent } from './product-information.component'

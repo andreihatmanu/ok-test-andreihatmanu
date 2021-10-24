@@ -1,0 +1,53 @@
+@import '~antd/dist/antd.css';
+
+p {
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+input {
+    height: 35px;
+}
+
+.steps-wizard {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 80px;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.steps-content {
+    min-height: 200px;
+    margin-top: 16px;
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 2px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.steps-action {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    margin-top: 24px;
+}
+
+[data-theme="dark"] .steps-content {
+    margin-top: 16px;
+    border: 1px dashed #303030;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.65);
+    padding-top: 80px;
+}
+
+.submit-page-title {
+    display: flex;
+    flex-wrap: wrap;
+}

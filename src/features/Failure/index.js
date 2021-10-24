@@ -1,0 +1,1 @@
+export  {FailureComponent as Failure} from './failure.component'
